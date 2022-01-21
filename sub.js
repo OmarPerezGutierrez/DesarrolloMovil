@@ -1,6 +1,7 @@
 const mqtt = require('mqtt')
 const mysql = require('mysql')
 
+/*coneccion BD*/
 const db = mysql.createConnection({
     host: "localhost",
     port: 3306,
